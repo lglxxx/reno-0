@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>猫照片应用</title>
+    <link rel="stylesheet" href=".\style.css" charset="UTF-8" />
+  </head>
+  <body>
+    <h1>猫照片应用</h1>
+    <div>
+      <h2>猫照片</h2>
+      <p>点击此处显示更多 <a href="">猫照片</a>.</p>
+      <img
+        class="xiaomao"
+        src="https://img1.baidu.com/it/u=2039222241,1842016507&fm=253&fmt=auto&app=120&f=JPEG?w=1067&h=800"
+        alt="小猫"
+      />
+    </div>
+    <!-- 猫照片 -->
+    <div>
+      <h2>猫列表</h2>
+      <h3>猫喜欢的东西：</h3>
+      <ul>
+        <li>猫草</li>
+        <li>激光笔</li>
+        <li>烤宽面条</li>
+      </ul>
+      <img
+        class="miantiao"
+        src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg95.699pic.com%2Fxsj%2F1k%2F3d%2F8u.jpg%21%2Ffw%2F700%2Fwatermark%2Furl%2FL3hzai93YXRlcl9kZXRhaWwyLnBuZw%2Falign%2Fsoutheast&refer=http%3A%2F%2Fimg95.699pic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1664188883&t=09eadb2d526beca7bf9e3b524c6611b9"
+        alt="烤宽面条"
+      />
+      <p>猫<em>喜欢</em>烤宽面条</p>
+    </div>
+    <div>
+      <h3>猫最讨厌的三件事：</h3>
+      <ol>
+        <li>跳蚤治疗</li>
+        <li>打雷</li>
+        <li>其他猫</li>
+      </ol>
+      <img
+        class="qitamao"
+        src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20170419%2F56f15fc6ab3c448a84e0321a33d41f4d_th.jpeg&refer=http%3A%2F%2Fimg.mp.itc.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1664189027&t=d8689c019d161ef16cd20f5d12a1bc44"
+        alt="其他猫"
+      />
+    </div>
+    <!-- 猫列表 -->
+    <div>
+      <h2>猫表单</h2>
+      <form action="#">
+        <fieldset>
+          <legend>您的猫是室内猫还是室外猫？</legend>
+          <input type="radio" name="personality" /> 室内
+          <input type="radio" name="personality" /> 室外
+        </fieldset>
+        <fieldset>
+          <legend>您的猫是什么性格？</legend>
+          <input id="1" name="personality" type="checkbox" />
+          <label for="1">喜爱美食</label>
+          <input id="2" name="personality" type="checkbox" /><label for="2"
+            >懒惰</label
+          >
+          <input id="3" name="personality" type="checkbox" /><label for="3"
+            >精力充沛</label
+          >
+        </fieldset>
+        <input type="text" placeholder="猫照片网址" required />
+        <input type="button" value="提交" />
+      </form>
+    </div>
+    <footer>
+      <p>技术支持-<a href="">icoderoad.com</a></p>
+    </footer>
+  </body>
+</html>
